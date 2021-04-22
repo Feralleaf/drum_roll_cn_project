@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+ body {
+    font-family: 'Bangers', cursive;
+    background-color: rgb(0, 151, 252);
+} 
+
+#main {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Bangers', cursive;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+button {
+    margin: 15px;
+    text-align: center;
+    border: dashed rgb(4, 76, 117);
+    background-color: rgb(47, 255, 238);
+    padding: 20px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+button:hover, button:focus {
+    font: 2em;
+    cursor: pointer;
+    outline: none;
+    padding: 20px;
+    border: dashed rgb(216, 9, 147);
+    background-color: rgb(47, 206, 255);
+    height: 120px;
+    width: 120px;
+}
+
+img {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    height: auto;
+    border-radius: 25%;
+    border: 5px solid greenyellow;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: 600px;
+        background-size: cover;
+        position: relative;
+    }
+
+    img {
+        width: 70%;
+        height: auto;
+        border-radius: 25%;
+        border: 5px solid greenyellow;
+    }
+
+    button {
+        margin: 5px;
+        border: none;
+        background-color: rgb(75, 255, 150);
+        padding: 20px;
+        border-radius: 50%;
+        height: 75px;
+        width: 75px;
+    }
+
+    button:hover, button:focus {
+        font: 2em;
+        cursor: pointer;
+        outline: none;
+        padding: 20px;
+        border: none;
+        background-color: palevioletred;
+        height: 80px;
+        width: 80px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 1em;
+        font-family: 'Bangers', cursive;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+}
